@@ -1,1 +1,2 @@
 # AdiosMundo
+realizado por teo
