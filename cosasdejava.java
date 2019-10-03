@@ -3,10 +3,14 @@ public class cosasdejava {
 	public static void main(String[] args) {
 
 
-		String amarillo = "\033[33m";
+		String amarillo = "\033[35m";
 		String verde = "\033[32m";
-		System.out.println(amarillo + "otra Cosa");
-		System.out.println(verde + "Adios mundo");
+		String reset = "\033[0m";
+		System.out.println(amarillo + "otra Cosa" + reset);
+		System.out.println(verde + "Adios mundo" + reset);
+		
+
+
 	}
 
 }
